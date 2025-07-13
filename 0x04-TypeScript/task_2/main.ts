@@ -60,7 +60,3 @@ const historyClass: Subjects = "History";
 
 console.log(teachClass(mathClass)); // Output: "Teaching Math"
 console.log(teachClass(historyClass)); // Output: "Teaching History"
-
-// These would cause TypeScript errors:
-// teachClass('Science');
-// teachClass('English');
