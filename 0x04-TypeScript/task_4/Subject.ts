@@ -1,8 +1,6 @@
 import { Teacher } from "./Teacher";
-import { Subject } from "./Subject";
-
 namespace Subjects {
-  export class Subject {
+  export class BaseSubject {
     private _teacher: Teacher;
 
     constructor(teacher: Teacher) {
@@ -20,9 +18,3 @@ namespace Subjects {
     }
   }
 }
-
-export class Subject {
-  // Declaration merging to extend Teacher interface
-  export interface Teacher {
-    experienceTeachingPython?: number;
-  }
